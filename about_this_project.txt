@@ -1,0 +1,11 @@
+The Vending Machine Controller is a digital design project implemented using SystemVerilog, based on the concept of a Finite State Machine (FSM). The system simulates the behavior of a real-world vending machine that accepts coin inputs, processes the total inserted amount, and dispenses a product when the required amount is reached.
+
+The controller is designed to accept ₹5 and ₹10 coins as inputs and operates with a fixed product cost of ₹15. The internal logic tracks the accumulated value using a set of defined states, where each state represents a specific amount of money inserted. Once the total reaches or exceeds the required amount, the machine triggers a dispense signal, and in cases of excess input, it also returns the appropriate change.
+
+The design follows a Moore FSM architecture, ensuring that outputs depend only on the current state, making the system stable and predictable. The state transitions are synchronized with a clock signal, and a reset mechanism is included to initialize the system to its starting state.
+
+To enhance debugging and verification, the project includes detailed console logging using SystemVerilog system tasks such as `$display`, allowing step-by-step observation of coin insertion, state transitions, and output actions. Additionally, simulation waveform analysis is enabled through Value Change Dump (VCD) generation, which can be visualized using tools like GTKWave or EPWave.
+
+The project is structured with a clear separation between design and testbench modules, promoting modularity and maintainability. The testbench applies different input scenarios to validate the correctness of the controller, including normal operation and edge cases such as excess coin insertion.
+
+This project demonstrates key digital design concepts such as FSM modeling, synchronous design, hardware description using SystemVerilog, and simulation-based verification. It can be further extended to support multiple products, user interfaces, and FPGA-based hardware implementation, making it a strong foundation for embedded systems and VLSI design applications.
