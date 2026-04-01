@@ -47,4 +47,5 @@ gtkwave dump.vcd
 
 ## 👨‍💻 Author
 
-Your Name
+Sujith G
+https://sujith2323.github.io/ptf/
