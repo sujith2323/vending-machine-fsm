@@ -1,10 +1,10 @@
 # Vending Machine Controller (FSM) - SystemVerilog
 
-## 📌 Overview
+## Overview
 
 This project implements a vending machine controller using a Finite State Machine (FSM) in SystemVerilog. The system accepts coins and dispenses products based on the inserted amount.
 
-## 💰 Features
+## Features
 
 * Accepts ₹5 and ₹10 coins
 * Dispenses item at ₹15
@@ -13,7 +13,7 @@ This project implements a vending machine controller using a Finite State Machin
 * Debug logs using `$display`
 * Waveform generation using VCD
 
-## 🧠 Design
+## Design
 
 States:
 
@@ -23,7 +23,7 @@ States:
 * S15 → Dispense
 * S20 → Dispense + Change
 
-## 🧪 Simulation
+## Simulation
 
 EDA Playground:
 
@@ -38,14 +38,14 @@ gtkwave dump.vcd
 ```
 ![Simulated Output](./sim/Simulated_Output.png)
 
-## 📊 Tools Used
+## Tools Used
 
 * Icarus Verilog
 * GTKWave
 * EDA Playground (initial testing)
 
 
-## 👨‍💻 Author
+## Author
 
 Sujith G
 
