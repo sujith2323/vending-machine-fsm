@@ -25,6 +25,10 @@ States:
 
 ## 🧪 Simulation
 
+EDA Playground:
+
+https://www.edaplayground.com/x/nput
+
 Run using Icarus Verilog:
 
 ```bash
