@@ -36,6 +36,7 @@ iverilog -g2012 src/vending_machine.sv tb/tb_vending.sv -o vm.out
 vvp vm.out
 gtkwave dump.vcd
 ```
+![Simulated Output](./sim/Simulated_Output.png)
 
 ## 📊 Tools Used
 
