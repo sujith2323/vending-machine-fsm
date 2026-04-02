@@ -44,11 +44,6 @@ gtkwave dump.vcd
 * GTKWave
 * EDA Playground (initial testing)
 
-## 🚀 Future Improvements
-
-* Multiple product selection
-* Display interface
-* FPGA implementation
 
 ## 👨‍💻 Author
 
